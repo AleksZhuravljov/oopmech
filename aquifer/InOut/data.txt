@@ -1,0 +1,60 @@
+TIME               	474.5 \ day
+
+TIME_STEP           10000 s
+
+MAX_TOLERANCE       0
+
+SCHEME_P            implicit biConjugateGrSt
+
+SCHEME_S            implicit biConjugateGrSt
+
+GRID_FILE           gridPars.txt
+
+FP_FILE             funcPars.txt
+
+S_INI_FILE          satIni.txt
+
+P_INI               150 bar
+
+V_PROD              120000 m^3/d (std)
+
+SKIN                0.
+
+R_WELL              0.09144 m
+
+VOLUME_MOD          8.54E+9 m^3
+
+CALC_TYPE           simple2D
+
+PM3D                1
+
+ANIMATION           0 100
+
+R1_STD              1020.3 kg/m^3
+
+R2_STD              0.81172 kg/m^3
+
+PROD_CELL_INDEX     220 index
+
+THICKNESS 			30 m
+
+OUT_PUT_DELAY       3.E-1 s
+
+
+fPPlotFlag          1
+
+
+CALC_TYPE:
+
+simple2D
+
+
+SCHEME:
+
+explicit myExplicit
+
+implicit biConjugateGrSt
+
+implicit conjugateGrLSq
+
+implicit supernodalLUFact

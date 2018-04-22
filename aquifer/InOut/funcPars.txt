@@ -1,0 +1,20 @@
+kA1          0.8
+S1r          0.2
+kn1          2.
+visc1        6.883E-4 Pa/s
+
+kA2          0.9
+S2r          0.05
+kn2          6.
+visc2        1.28E-5 Pa/s
+
+
+dA1          3.98E-7 kg/m3/Pa
+dB1          1020.3 kg/m3
+
+dA2          0.9893E-5 0.614E-6 kg/m3/Pa
+dB2          -10.232 12.596 kg/m3
+
+PMin         0.8E+7
+PMax         1.50E+7
+
