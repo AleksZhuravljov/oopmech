@@ -21,7 +21,9 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-Give the example
+Give examples
+brew install eigen
+brew install cmake
 ```
 
 And repeat
@@ -41,6 +43,7 @@ Explain how to run the automated tests for this system
 Explain what these tests test and why
 
 ```
+working directory – InOut
 Give an example
 ```
 
