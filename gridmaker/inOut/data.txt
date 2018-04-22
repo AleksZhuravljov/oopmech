@@ -1,0 +1,33 @@
+PORO            0.2
+
+PERM            1.E-12 m2
+
+X0              0 m
+
+Y0              0 m
+
+XL              1000 m
+
+YL              1000 m
+
+ANGLE           0 grad
+
+NODES_NUM_X     22
+
+NODES_NUM_Y     22
+
+SAT_INI_REG_1   1.
+
+SAT_INI_REG_2   0.
+
+X_MIN_REG_2     250
+
+X_MAX_REG_2     750
+
+Y_MIN_REG_2     250
+
+Y_MAX_REG_2     750
+
+GRID_FILE       gridPars.txt
+
+SATINI_FILE     satIni.txt
