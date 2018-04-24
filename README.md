@@ -9,7 +9,7 @@ This project is an attempt to understand how deep such numerical models can be b
 and whether this can neglect the above difficulties.
 
 ## Description
-The following reservoir engineering [problem](https://github.com/AleksZhuravljov/oopmech/aquifer/scheme.png) is solving:
+The following reservoir engineering [problem](https://github.com/AleksZhuravljov/oopmech/blob/master/aquifer/scheme.png) is solving:
 
 - two-phase compressible fluid (methane and water)
 - a two-dimensional arial grid
