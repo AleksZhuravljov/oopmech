@@ -1,20 +1,23 @@
 # Project Title
-The C++ object-oriented programming algorithmic of fluid and gas mechanics numerical problems.
+The C++ object-oriented programming approach in fluid and gas mechanics numerical problems.
 
 ## Motivation
-Functional programming is the conventional approach in the numerical solution of the problems of continuum mechanics.
-However, in the case of complex problems with this approach, it becomes really difficult to design, develop and maintain the source code.
+Functional programming is the conventional approach for the numerical solutions in the problems of continuum mechanics.
+Nevertheless, in the case of complex problems, it becomes really difficult to design,
+develop and maintain the source code using functional programming.
 
-This project is an attempt to understand how deep such numerical models can be based on paradigms of object-oriented programming
-and whether this can neglect the above difficulties.
+This project attempts to understand how deep such numerical models can be based on paradigms of object-oriented programming
+and whether this can troubleshoot the abovementioned difficulties.
 
 ## Description
-The following reservoir engineering [problem](https://github.com/AleksZhuravljov/oopmech/blob/master/aquifer/scheme.png) is solving:
+The following reservoir engineering [problem](https://github.com/AleksZhuravljov/oopmech/blob/master/aquifer/scheme.png)
+is solved:
 
-- two-phase compressible fluid (methane and water)
-- a two-dimensional arial grid
-- in the center of the reservoir there is a producing well
-- the volume of the boundary grid blocks is artificially increased for modeling the aquifer
+- two-phase compressible fluids (methane and water)
+- a two-dimensional arial grid system
+- there is a production well in the center of the reservoir
+- the volume of the boundary grid blocks is artificially increased
+using pore volume multipliers when modelling the aquifer
 
 ## Getting Started
 
@@ -29,7 +32,7 @@ cd InOut
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The things you need to install the software and how to install them
 
 ```
 brew install eigen
@@ -48,7 +51,7 @@ This project is licensed under the Academic Free License - see the [LICENSE](LIC
 
 ## Acknowledgments
 
-* [**Sergei Iskakov**](https://github.com/iskakoff) for practical advice on writing C ++ code 
-* [**Zakhar Lanetc**](https://github.com/lanetszb) for model validation
+* [**Sergei Iskakov**](https://github.com/iskakoff) for practical advice on writing C++ code 
+* [**Zakhar Lanetc**](https://github.com/lanetszb) for model validation using [Eclipse](https://www.software.slb.com/products/eclipse)
 
 
