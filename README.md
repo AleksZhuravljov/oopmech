@@ -42,7 +42,7 @@ brew install gnuplot
 
 ## Author
 
-* [**Aleksandr Zhuravljov**](https://github.com/AleksZhuravljov/)
+* [**Aleksandr Zhuravlyov**](https://github.com/AleksZhuravlyov/)
 
 
 ## License
